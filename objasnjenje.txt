@@ -1,0 +1,12 @@
+Koristi se PWM(Pulse Width Modulation). Signal uključivanja i iskljucivanja se brzo menja.
+Dioda svetli ritmički, menjajući svoju svetlost tako da  podseća na treptanje. Ovaj efekat postiže se kroz periodične promene u električnom toku koji prolazi kroz diodu.
+
+
+Prezime:Jelesić 3 samoglasnika, 4 suglasnika, 7 slova
+Ime:Teodora 4 samoglasnika, 3 suglasnika, 7 slova
+Ukupno 7 suglasnika 7 samoglasnika, broj samoglasnika i suglasnika je jednak bira se port C(mikrokontroler koji je izabran je stm32f103r6).
+Kako je 14%6 jednako 2 bira ce pin 2.
+
+Širina impulsa=broj slova u imenu u ms je 7(izabrala sam 70 ms da bih bolje uočila treperenje diode)
+Širina pauze=broj slova u prezimenu u ms je 7(izabrala sam 70 ms da bih bolje uocila treperenje diode )
+Dve for petlje svaka se ponavlja 7 puta jer je broj slova imena i prezimena jednak
